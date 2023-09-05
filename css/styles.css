@@ -22,6 +22,7 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 button {
@@ -58,6 +59,16 @@ button {
   color: var(--color-brand);
 }
 
+.section {
+  padding: 64px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
 /*Header*/
 
 .logo {
@@ -88,15 +99,18 @@ button {
 /*Hero section*/
 
 .hero-section {
+  padding: 380px 0 40px;
+  background-image: url("../images/chocolate-covered-cocoa-powder\ 1.webp");
   background-color: var(--color-background);
 }
 
 .hero-title {
+  max-width: 484px;
   color: var(--color-primary-light);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.21;
-  letter-spacing: -0.03em;
+  margin-bottom: 32px;
 }
 
 .hero-button {
@@ -127,6 +141,7 @@ button {
 /*Advantage section*/
 
 .advantage-section {
+  padding: 50px 0;
   background-color: var(--color-background);
 }
 
@@ -135,6 +150,7 @@ button {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.22;
+  margin-bottom: 18px;
 }
 
 .advantage-text {
@@ -142,6 +158,14 @@ button {
   font-weight: 400;
   line-height: 1.21;
   letter-spacing: -0.02em;
+}
+
+.advantage-icon {
+  width: 62px;
+  height: 62px;
+  margin-bottom: 22px;
+  border: 1px solid var(--color-primary-light);
+  border-radius: 50%;
 }
 
 /*END Advantage section*/
